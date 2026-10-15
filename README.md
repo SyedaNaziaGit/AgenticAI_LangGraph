@@ -1170,9 +1170,42 @@ Why Streaming
 
 
 In Python, a generator is a special type of iterator that allows you to generate values on the fly, one at a time, using the yield keyword instead of return.
+-----------------------------------------------------------------
+## What is HITL
 
+HITL (Human-in-the-Loop) is a design approach in AI systems where a human actively participates at critical points of the AI workflow — either to supervise, approve, correct, or guide the model’s output.
+Think of HITL as putting a human “checkpoint” inside an AI pipeline so that important decisions are not made autonomously by the model.
+Why HITL Exists?
+1. To help agentic systems
+2. To add accountability
+HITL ensures:
+• Accuracy
+• Safety
+• Ethical alignment
+• Better user experience
+Common HITL Patterns:
+• Action Approval Pattern (Approve / Reject Before Execution)
+• Output Review / Edit Pattern
+• Ambiguity Clarification Pattern
+• Escalation Pattern
 
-------------
+<img width="975" height="490" alt="image" src="https://github.com/user-attachments/assets/60a3a200-7494-4082-81c1-00b87df92090" />
+
+-------------------------------------------------------------------------
+## What are Subgraphs?
+
+A subgraph in LangGraph usually means a graph that is embedded and executed as a node inside another graph.
+
+<img width="770" height="476" alt="image" src="https://github.com/user-attachments/assets/ef2cd9cc-ea55-4757-8567-3c325900c44d" />
+
+<img width="507" height="625" alt="image" src="https://github.com/user-attachments/assets/00744f76-ae69-4420-8922-2d80f6783448" />
+
+<img width="620" height="675" alt="image" src="https://github.com/user-attachments/assets/41de7a7c-03cd-4949-84d1-bec69bd64266" />
+
+https://docs.langchain.com/oss/python/langgraph/use-subgraphs
+
+--------------------------------------------------------
+
 streamlit docs
 https://docs.streamlit.io/develop/api-reference/chat
 
